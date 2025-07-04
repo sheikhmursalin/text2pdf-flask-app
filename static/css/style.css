@@ -1,0 +1,3 @@
+/* Light tweaks */
+html, body { height: 100%; }
+textarea   { resize: vertical; font-family: monospace; }
