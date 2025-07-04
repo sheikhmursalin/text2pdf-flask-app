@@ -49,7 +49,6 @@
 
 ### 🖥️ Demo UI Preview
 
-> *(Add your app interface screenshot here)*  
 <p align="center">
   <img src="static/images/demo_ui.png" alt="Demo Screenshot" width="600"/>
 </p>
