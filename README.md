@@ -35,8 +35,13 @@
 
 ## Live Demo
 
-> 📍 **Coming soon!**  
-> _(Once deployed, add your link here)_
+🚀 **Try it live now →** [https://text2pdf-flask-app.onrender.com](https://text2pdf-flask-app.onrender.com)
+
+<p align="center">
+  <a href="https://text2pdf-flask-app.onrender.com">
+    <img src="https://img.shields.io/badge/Open%20App-Text2PDF-blue?style=for-the-badge&logo=googlechrome" />
+  </a>
+</p>
 
 ---
 
