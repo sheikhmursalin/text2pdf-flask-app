@@ -8,21 +8,21 @@
 ---
 
 ## 📚 Table of Contents
-- [🚀 Features](#-features)
-- [🔗 Live Demo](#-live-demo)
-- [📸 Screenshots](#-screenshots)
-- [🧰 Tech Stack](#-tech-stack)
-- [🧪 How to Run Locally](#-how-to-run-locally)
-- [📂 Folder Structure](#-folder-structure)
-- [☁️ Deploy to Render](#-deploy-to-render)
-- [✍️ Sample Text](#-sample-text-to-try)
-- [🤝 Contributing](#-contributing)
-- [📜 License](#-license)
-- [🔗 Connect with Me](#-connect-with-me)
+- [Features](#features)
+- [Live Demo](#live-demo)
+- [Screenshots](#screenshots)
+- [Tech Stack](#tech-stack)
+- [How to Run Locally](#how-to-run-locally)
+- [Folder Structure](#folder-structure)
+- [Deploy to Render](#deploy-to-render)
+- [Sample Text to Try](#sample-text-to-try)
+- [Contributing](#contributing)
+- [License](#license)
+- [Connect with Me](#connect-with-me)
 
 ---
 
-## 🚀 Features
+## Features
 
 - ✅ Convert long text (1000+ lines supported) to **well-formatted PDFs**
 - ✅ Supports **Hindi**, **Unicode**, and emojis 🧠📚😄
@@ -33,14 +33,14 @@
 
 ---
 
-## 🔗 Live Demo
+## Live Demo
 
 > 📍 **Coming soon!**  
 > _(Once deployed, add your link here)_
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 ### 🖥️ Demo UI Preview
 > *(Add your app interface screenshot here)*  
@@ -56,7 +56,7 @@
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 
 | Layer      | Technology Used        |
 |------------|------------------------|
@@ -69,7 +69,7 @@
 
 ---
 
-## 🧪 How to Run Locally
+## How to Run Locally
 
 ```bash
 # 1️⃣ Clone the repository
@@ -96,7 +96,7 @@ python app.py
 
 ---
 
-## 📂 Folder Structure
+## Folder Structure
 
 ```
 text2pdf-flask-app/
@@ -118,7 +118,7 @@ text2pdf-flask-app/
 
 ---
 
-## ☁️ Deploy to Render
+## Deploy to Render
 
 1. Push this repo to GitHub.
 2. Visit: [https://render.com](https://render.com)
@@ -130,7 +130,7 @@ text2pdf-flask-app/
 
 ---
 
-## ✍️ Sample Text to Try
+## Sample Text to Try
 
 ```
 1. Which of the following is an AI-specific hardware platform designed by Google?
@@ -152,20 +152,20 @@ D. MXNet
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Pull requests are welcome!  
 Have ideas to improve formatting or add OCR support? Open an issue or fork the repo.
 
 ---
 
-## 📜 License
+## License
 
 This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-## 🔗 Connect with Me
+## Connect with Me
 
 <p>
   <a href="https://www.linkedin.com/in/sheikh-mursalin-bb4bb9227/" target="_blank">
@@ -188,5 +188,5 @@ This project is licensed under the [MIT License](LICENSE).
 ---
 
 <p align="center">
-  Made with ❤️ by <a href="https://github.com/sheikhmursaleen">Sheikh Mursaleen</a>
+  Made with ❤️ by <a href="https://github.com/sheikhmursalin">Sheikh Mursalin</a>
 </p>
