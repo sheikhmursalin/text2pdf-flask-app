@@ -48,15 +48,19 @@
 ## Screenshots
 
 ### 🖥️ Demo UI Preview
+
 > *(Add your app interface screenshot here)*  
 <p align="center">
   <img src="static/images/demo_ui.png" alt="Demo Screenshot" width="600"/>
 </p>
 
-### 📄 Sample Output PDF
-> *(Add a screenshot of the PDF result here)*  
+### 📄 Sample Output Preview
+
 <p align="center">
-  <img src="static/images/sample_pdf.png" alt="Sample PDF Output" width="600"/>
+  <video width="600" controls>
+    <source src="static/videos/demo.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
 </p>
 
 ---
