@@ -1,4 +1,4 @@
-// Front‑end fetch + download
+// 1️⃣ PDF form submission + download
 const form     = document.getElementById("pdfForm");
 const textarea = document.getElementById("textArea");
 const spinner  = document.getElementById("spinner");
@@ -16,7 +16,7 @@ form.addEventListener("submit", async (e) => {
     formData.append("text", textarea.value);
 
     const res  = await fetch("/convert", { method: "POST", body: formData });
-    const data = await res.blob();               // read blob anyway
+    const data = await res.blob();  // Always read blob
     if (!res.ok) {
       const errText = await data.text();
       throw new Error(errText || "Server error");
@@ -27,7 +27,7 @@ form.addEventListener("submit", async (e) => {
     const a   = document.createElement("a");
     a.href = url;
     const cd = res.headers.get("Content-Disposition") || "";
-    const fn = (cd.match(/filename="(.+)"/) || [])[1] || "converted.pdf";
+    const fn = (cd.match(/filename="(.+?)"/) || [])[1] || "converted.pdf";
     a.download = fn;
     document.body.appendChild(a);
     a.click();
@@ -39,4 +39,24 @@ form.addEventListener("submit", async (e) => {
     spinner.classList.add("d-none");
     button.disabled = false;
   }
+});
+
+
+// 2️⃣ PWA Install App button
+let deferredPrompt;
+const installBtn = document.getElementById("installBtn");
+
+window.addEventListener("beforeinstallprompt", (e) => {
+  e.preventDefault();
+  deferredPrompt = e;
+  installBtn.classList.remove("d-none");  // Show button
+});
+
+installBtn?.addEventListener("click", async () => {
+  if (!deferredPrompt) return;
+  deferredPrompt.prompt();
+  const { outcome } = await deferredPrompt.userChoice;
+  console.log("PWA install outcome:", outcome);
+  deferredPrompt = null;
+  installBtn.classList.add("d-none");
 });
