@@ -56,11 +56,12 @@
 ### 📄 Sample Output Preview
 
 <p align="center">
-  <video width="600" controls>
-    <source src="static/gif/Demo.gif" type="gif/gif">
+  <video width="600" autoplay loop muted playsinline>
+    <source src="static/video/Demo.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
 </p>
+
 
 ---
 
